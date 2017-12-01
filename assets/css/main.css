@@ -1,0 +1,73 @@
+body {
+    background-color: transparent;
+}
+
+textarea:focus,
+input:focus {
+    outline: none;
+}
+
+
+/* Icon Nav */
+
+.uk-iconnav {
+    position: absolute;
+    padding-top: 10px;
+    padding-right: 10px;
+    top: 0;
+    right: 0;
+}
+
+.uk-grid-small {
+    margin-top: 120px;
+    margin-left: 40px;
+    margin-right: 60px;
+}
+
+.uk-card-default {
+    background: #ecf0f1;
+    color: #666;
+    box-shadow: 0 5px 15px #00000014
+}
+
+
+/* Search Image */
+
+.search-image {
+    max-width: 120vh;
+    display: block;
+    height: auto;
+    margin: auto;
+}
+
+
+/* Search Bar */
+
+.uk-search-default .uk-search-input {
+    height: 45px;
+    width: 700px;
+    z-index: 100;
+    background-color: #FFFFFF;
+    border-color: #FFFFFF;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-left: 15px;
+}
+
+.uk-search-default .uk-search-input:focus {
+    background-color: #FFFFFF
+}
+
+.uk-position-center {
+    top: 70%;
+}
+
+
+/* Category Tabs */
+
+.tabs-center {
+    margin-left: 30%;
+    padding-left: 3%;
+    margin-right: 30%;
+    margin-top: 2%;
+    margin-bottom: -5%;
+}

@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>eLibrary | Search eBooks & AudioBooks | Online Book Repository</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- jQuery -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+
+	<!-- Icons -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<!--UI Framework -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.25/css/uikit.css" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.25/js/uikit.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.25/js/uikit-icons.js"></script>
+
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+
+<body>
+
+	<!-- +Icon Nav -->
+	<ul class="uk-iconnav">
+		<li>
+			<a href="#" uk-icon="icon: plus"></a>
+		</li>
+		<div uk-dropdown>Add Audiobook or eBook? Email contents to : youremail@company.com</div>
+		<li>
+			<a href="#" uk-icon="icon: mail"></a>
+		</li>
+		<div uk-dropdown>Questions? Site not responding? Email : support@company.com</div>
+	</ul>
+	<!-- -Icon Nav -->
+
+	<!-- +Search Image -->
+	<div class="container search-image-container" target="_blank">
+		<img class="search-image" src="img/svg/image.svg" style='width:100%;' border="0" alt="Image">
+		<!-- ^^ Image From VECTEEZY.COM personal use only-->
+	</div>
+	<!-- -Search Image -->
+
+	<!-- +Search Bar -->
+	<form class="uk-search uk-search-default uk-position-center">
+		<input id="searchInput" onkeyup="myFunction()" class="uk-search-input" autofocus="autofocus" type="search" placeholder="Search...">
+	</form>
+	<!-- -Search Bar -->
+
+
+
+	<!-- +Category Tabs (Names) -->
+	<ul uk-tab class="tabs-center">
+		<li>
+			<a href="#myTable">Self-Help</a>
+		</li>
+		<li>
+			<a href="#myTable">Technology</a>
+		</li>
+		<li>
+			<a href="#myTable">Business</a>
+		</li>
+		<li>
+			<a href="#myTable">Acedemics</a>
+		</li>
+	</ul>
+	<!-- -Category Tabs (Names) -->
+
+	<!-- +Tabs Content -->
+	<ul class="uk-switcher uk-margin">
+		<!-- +Self-Help -->
+		<li>
+			<ul id="myTable" class="uk-grid-small uk-child-width-1-2 uk-child-width-1-4@s uk-text-center" uk-grid>
+				<li>
+					<div class="uk-card uk-card-default uk-card-body">
+						<span class="book-name uk-margin-small-right">
+						</span> Spiderman
+						<br/>
+						<br/>
+						<a class="download-link" href="#">
+							<span class="uk-margin-small-right">
+								<i class="fa fa-book" aria-hidden="true"></i>
+							</span>
+						</a>
+						<a class="download-link" href="#">
+							<span class="uk-margin-small-right">
+								<i class="fa fa-file-audio-o" aria-hidden="true"></i>
+							</span>
+						</a>
+					</div>
+				</li>
+				<li>
+					<div class="uk-card uk-card-default uk-card-body">
+						<span class="book-name uk-margin-small-right">
+						</span> Hulk
+						<br/>
+						<br/>
+						<a class="download-link" href="#">
+							<span class="uk-margin-small-right">
+								<i class="fa fa-book" aria-hidden="true"></i>
+							</span>
+						</a>
+						<a class="download-link" href="#">
+							<span class="uk-margin-small-right">
+								<i class="fa fa-file-audio-o" aria-hidden="true"></i>
+							</span>
+						</a>
+					</div>
+				</li>
+				<li>
+					<div class="uk-card uk-card-default uk-card-body">
+						<span class="book-name uk-margin-small-right">
+						</span> Thor
+						<br/>
+						<br/>
+						<a class="download-link" href="#">
+							<span class="uk-margin-small-right">
+								<i class="fa fa-book" aria-hidden="true"></i>
+							</span>
+						</a>
+						<a class="download-link" href="#">
+							<span class="uk-margin-small-right">
+								<i class="fa fa-file-audio-o" aria-hidden="true"></i>
+							</span>
+						</a>
+					</div>
+				</li>
+				<li>
+					<div class="uk-card uk-card-default uk-card-body">
+						<span class="book-name uk-margin-small-right">
+						</span> Ironman
+						<br/>
+						<br/>
+						<a class="download-link" href="#">
+							<span class="uk-margin-small-right">
+								<i class="fa fa-book" aria-hidden="true"></i>
+							</span>
+						</a>
+						<a class="download-link" href="#">
+							<span class="uk-margin-small-right">
+								<i class="fa fa-file-audio-o" aria-hidden="true"></i>
+							</span>
+						</a>
+					</div>
+				</li>
+			</ul>
+		</li>
+		<!-- -Self-Help -->
+
+		<!-- +Technology -->
+		<li>
+			<ul id="myTable" class="uk-grid-small uk-child-width-1-2 uk-child-width-1-4@s uk-text-center" uk-grid>
+				<li>
+					<div class="uk-card uk-card-default uk-card-body">
+						<span class="book-name uk-margin-small-right">
+						</span> Spiderman
+						<br/>
+						<br/>
+						<a class="download-link" href="#">
+							<span class="uk-margin-small-right">
+								<i class="fa fa-book" aria-hidden="true"></i>
+							</span>
+						</a>
+						<a class="download-link" href="#">
+							<span class="uk-margin-small-right">
+								<i class="fa fa-file-audio-o" aria-hidden="true"></i>
+							</span>
+						</a>
+					</div>
+				</li>
+				<li>
+					<div class="uk-card uk-card-default uk-card-body">
+						<span class="book-name uk-margin-small-right">
+						</span> Hulk
+						<br/>
+						<br/>
+						<a class="download-link" href="#">
+							<span class="uk-margin-small-right">
+								<i class="fa fa-book" aria-hidden="true"></i>
+							</span>
+						</a>
+						<a class="download-link" href="#">
+							<span class="uk-margin-small-right">
+								<i class="fa fa-file-audio-o" aria-hidden="true"></i>
+							</span>
+						</a>
+					</div>
+				</li>
+				<li>
+					<div class="uk-card uk-card-default uk-card-body">
+						<span class="book-name uk-margin-small-right">
+						</span> Thor
+						<br/>
+						<br/>
+						<a class="download-link" href="#">
+							<span class="uk-margin-small-right">
+								<i class="fa fa-book" aria-hidden="true"></i>
+							</span>
+						</a>
+						<a class="download-link" href="#">
+							<span class="uk-margin-small-right">
+								<i class="fa fa-file-audio-o" aria-hidden="true"></i>
+							</span>
+						</a>
+					</div>
+				</li>
+				<li>
+					<div class="uk-card uk-card-default uk-card-body">
+						<span class="book-name uk-margin-small-right">
+						</span> Ironman
+						<br/>
+						<br/>
+						<a class="download-link" href="#">
+							<span class="uk-margin-small-right">
+								<i class="fa fa-book" aria-hidden="true"></i>
+							</span>
+						</a>
+						<a class="download-link" href="#">
+							<span class="uk-margin-small-right">
+								<i class="fa fa-file-audio-o" aria-hidden="true"></i>
+							</span>
+						</a>
+					</div>
+				</li>
+			</ul>
+		</li>
+		<!-- -Technology -->
+
+		<!-- +Business -->
+		<li>
+			<ul id="myTable" class="uk-grid-small uk-child-width-1-2 uk-child-width-1-4@s uk-text-center" uk-grid>
+				<li>
+					<div class="uk-card uk-card-default uk-card-body">
+						<span class="book-name uk-margin-small-right">
+						</span> Spiderman
+						<br/>
+						<br/>
+						<a class="download-link" href="#">
+							<span class="uk-margin-small-right">
+								<i class="fa fa-book" aria-hidden="true"></i>
+							</span>
+						</a>
+						<a class="download-link" href="#">
+							<span class="uk-margin-small-right">
+								<i class="fa fa-file-audio-o" aria-hidden="true"></i>
+							</span>
+						</a>
+					</div>
+				</li>
+				<li>
+					<div class="uk-card uk-card-default uk-card-body">
+						<span class="book-name uk-margin-small-right">
+						</span> Hulk
+						<br/>
+						<br/>
+						<a class="download-link" href="#">
+							<span class="uk-margin-small-right">
+								<i class="fa fa-book" aria-hidden="true"></i>
+							</span>
+						</a>
+						<a class="download-link" href="#">
+							<span class="uk-margin-small-right">
+								<i class="fa fa-file-audio-o" aria-hidden="true"></i>
+							</span>
+						</a>
+					</div>
+				</li>
+				<li>
+					<div class="uk-card uk-card-default uk-card-body">
+						<span class="book-name uk-margin-small-right">
+						</span> Thor
+						<br/>
+						<br/>
+						<a class="download-link" href="#">
+							<span class="uk-margin-small-right">
+								<i class="fa fa-book" aria-hidden="true"></i>
+							</span>
+						</a>
+						<a class="download-link" href="#">
+							<span class="uk-margin-small-right">
+								<i class="fa fa-file-audio-o" aria-hidden="true"></i>
+							</span>
+						</a>
+					</div>
+				</li>
+				<li>
+					<div class="uk-card uk-card-default uk-card-body">
+						<span class="book-name uk-margin-small-right">
+						</span> Ironman
+						<br/>
+						<br/>
+						<a class="download-link" href="#">
+							<span class="uk-margin-small-right">
+								<i class="fa fa-book" aria-hidden="true"></i>
+							</span>
+						</a>
+						<a class="download-link" href="#">
+							<span class="uk-margin-small-right">
+								<i class="fa fa-file-audio-o" aria-hidden="true"></i>
+							</span>
+						</a>
+					</div>
+				</li>
+			</ul>
+		</li>
+		<!-- -Business -->
+
+		<!-- Academics -->
+		<li>
+			<ul id="myTable" class="uk-grid-small uk-child-width-1-2 uk-child-width-1-4@s uk-text-center" uk-grid>
+				<li>
+					<div class="uk-card uk-card-default uk-card-body">
+						<span class="book-name uk-margin-small-right">
+						</span> Spiderman
+						<br/>
+						<br/>
+						<a class="download-link" href="#">
+							<span class="uk-margin-small-right">
+								<i class="fa fa-book" aria-hidden="true"></i>
+							</span>
+						</a>
+						<a class="download-link" href="#">
+							<span class="uk-margin-small-right">
+								<i class="fa fa-file-audio-o" aria-hidden="true"></i>
+							</span>
+						</a>
+					</div>
+				</li>
+				<li>
+					<div class="uk-card uk-card-default uk-card-body">
+						<span class="book-name uk-margin-small-right">
+						</span> Hulk
+						<br/>
+						<br/>
+						<a class="download-link" href="#">
+							<span class="uk-margin-small-right">
+								<i class="fa fa-book" aria-hidden="true"></i>
+							</span>
+						</a>
+						<a class="download-link" href="#">
+							<span class="uk-margin-small-right">
+								<i class="fa fa-file-audio-o" aria-hidden="true"></i>
+							</span>
+						</a>
+					</div>
+				</li>
+				<li>
+					<div class="uk-card uk-card-default uk-card-body">
+						<span class="book-name uk-margin-small-right">
+						</span> Thor
+						<br/>
+						<br/>
+						<a class="download-link" href="#">
+							<span class="uk-margin-small-right">
+								<i class="fa fa-book" aria-hidden="true"></i>
+							</span>
+						</a>
+						<a class="download-link" href="#">
+							<span class="uk-margin-small-right">
+								<i class="fa fa-file-audio-o" aria-hidden="true"></i>
+							</span>
+						</a>
+					</div>
+				</li>
+				<li>
+					<div class="uk-card uk-card-default uk-card-body">
+						<span class="book-name uk-margin-small-right">
+						</span> Ironman
+						<br/>
+						<br/>
+						<a class="download-link" href="#">
+							<span class="uk-margin-small-right">
+								<i class="fa fa-book" aria-hidden="true"></i>
+							</span>
+						</a>
+						<a class="download-link" href="#">
+							<span class="uk-margin-small-right">
+								<i class="fa fa-file-audio-o" aria-hidden="true"></i>
+							</span>
+						</a>
+					</div>
+				</li>
+			</ul>
+		</li>
+		<!-- -Academics -->
+	</ul>
+	<!-- -Tabs Content -->
+
+
+	<!-- +Search Function -->
+	<script>
+		function myFunction() {
+			var input, filter, ul, li, a, i;
+			input = document.getElementById("searchInput");
+			filter = input.value.toUpperCase();
+			ul = document.getElementById("myTable");
+			li = ul.getElementsByTagName("li");
+			for (i = 0; i < li.length; i++) {
+				a = li[i].getElementsByTagName("div")[0];
+				if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+					li[i].style.display = "";
+				} else {
+					li[i].style.display = "none";
+
+				}
+			}
+		}
+	</script>
+	<!-- -Search Function -->
+
+</body>
+
+</html>
