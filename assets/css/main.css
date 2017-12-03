@@ -33,7 +33,7 @@ input:focus {
 
 /* Search Image */
 
-.search-image {
+.uk-search-image {
     max-width: 120vh;
     display: block;
     height: auto;
@@ -64,7 +64,7 @@ input:focus {
 
 /* Category Tabs */
 
-.tabs-center {
+.uk-tabs-center {
     margin-left: 30%;
     padding-left: 3%;
     margin-right: 30%;
